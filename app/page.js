@@ -211,6 +211,7 @@ export default function Home() {
                   Education
                 </a>
               </li>
+              `
             </ul>
           </div>
         )}
@@ -303,13 +304,18 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-yellow-400 mb-4">
               PROFILE
             </h2>
-            <p className="text-gray-300 text-lg leading-relaxed">
-              With two years of experience in human resource assistant, I am
-              dedicated to creating a supportive and efficient workplace
-              environment. I thrive on adapting to changing organizational
-              dynamics and implementing innovative HR practices, showcasing my
-              commitment to continuous growth and contributing to the success of
-              both employees and the organization.
+            <p className="text-gray-300 text-lg leading-relaxed text-justify">
+              Motivated and detail-oriented HR professional with over 6 months
+              of experience in recruitment, onboarding, and employee support,
+              combined with 2 years of expertise in customer service. Skilled in
+              building strong professional relationships, managing
+              administrative processes, and ensuring a positive employee and
+              client experience. Known for adaptability, problem-solving,
+              handling staff concerns with empathy to foster a positive and
+              collaborative workplace culture and delivering results in
+              fast-paced environments. Eager to contribute to organizational
+              growth through effective HR practices and people-focused
+              solutions.
             </p>
           </div>
 
@@ -319,27 +325,33 @@ export default function Home() {
               SKILLS & PROFICIENCIES
             </h2>
 
+
+
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {/* Professional Skills */}
               <div className="bg-gray-800 p-5 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
                 <h3 className="font-bold text-white text-lg mb-3 border-b border-gray-700 pb-2">
                   PROFESSIONAL SKILLS
                 </h3>
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-2 gap-2.5">
                   {[
-                    "Communication Skill",
+                    "Communication Skills",
                     "Problem Solving",
                     "Teamwork",
                     "Time Management",
                     "Attention to Detail",
                     "Onboarding",
+                    "Offboarding",
                     "Critical Thinking",
+                    "Training",
                     "Payroll",
+                    "Recruiting",
+                    "Record Maintenance",
                     "Performance Appraisal",
                   ].map((skill, index) => (
                     <div key={index} className="flex items-center">
                       <div className="mr-2 text-yellow-400">✓</div>
-                      <span className="text-gray-300 text-sm">{skill}</span>
+                      <span className="text-gray-300 text-sm whitespace-nowrap">{skill}</span>
                     </div>
                   ))}
                 </div>
@@ -377,16 +389,20 @@ export default function Home() {
                 <h3 className="font-bold text-white text-lg mb-3 border-b border-gray-700 pb-2">
                   SOFTWARE SKILLS
                 </h3>
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-1.5 justify-start">
                   {[
-                    "Microsoft Office",
+                    "Microsoft Office Suite",
                     "HRIS Proficiency",
                     "SPSS",
                     "SmartPLS",
                     "HTML",
                     "CSS",
-                    "Photoshop",
+                    "Adobe Photoshop",
                     "Canva",
+                    "Microsoft Teams",
+                    "Linkus",
+                    "Zoom",
+                    "Elementix Media"
                   ].map((skill, index) => (
                     <span
                       key={index}
@@ -417,6 +433,85 @@ export default function Home() {
           <h2 className="text-3xl font-semibold text-yellow-400 text-center mb-12">
             WORK EXPERIENCE
           </h2>
+
+          {/* Experience 1 */}
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+            <h3 className="font-bold text-white text-xl">
+              Greenhill Education Group Pty Ltd (Australia )
+            </h3>
+            <p className="text-gray-400 italic mb-4">
+              HR & Admin Officer (Remote - Nepal) (April 2025 – October 2025)
+            </p>
+            <ul className="list-disc list-inside text-gray-300 space-y-2">
+              <li>
+                Provide HR and administrative support across multiple institutes
+                under Greenhill, including RGIT Australia, Ultimate Institute of
+                Australia (UIA), and Evolve Education and Migration (Australia &
+                Nepal).
+              </li>
+              <li>
+                Led the implementation of HR policies aligned with business
+                objectives, culture, and industry standards, fostering a
+                positive and inclusive workplace.
+              </li>
+
+              <li>
+                Designed and executed a performance review process based on Key
+                Performance Indicators (KPIs) and Key Result Areas (KRAs).
+              </li>
+
+              <li>
+                Streamlined the entire recruitment process, reducing
+                time-to-hire by 20%, through enhanced job descriptions,
+                postings, candidate screening, interviewing. onboarding and
+                induction sessions.
+              </li>
+              <li>
+                Helped new staff by providing them required resources, set-up
+                their workstation and supported to login into the system.
+              </li>
+
+              <li>
+                Updated the employee handbook to reflect current legal
+                requirements and company values.
+              </li>
+              <li>
+                Collaborated with senior management to align HR strategies with
+                long-term business goals.
+              </li>
+              <li>
+                Benchmarked HR practices against industry standards, ensuring
+                Greenhill remains competitive.
+              </li>
+
+              <li>
+                Implemented performance improvement plans (PIPs) for
+                underperforming staff, resulting in a 15% increase in overall
+                productivity.
+              </li>
+
+              <li>
+                Prepared contracts, sponsorship letters, warning letters,
+                variation letters and onboarding materials for staffs,
+                applicants and clients.
+              </li>
+              <li>
+                Maintained accurate records of applicants, staffs, and clients.
+                Communicated and coordinated with national and international
+                client for 407,482 and 500 visa.
+              </li>
+              <li>Conducted training for staffs.</li>
+              <li>Handled conflicts that arises between staff members.</li>
+              <li>Maintained accurate leave records of staffs.</li>
+              <li>
+                Manage office supplies, vendor coordination, and facility
+                maintenance to ensure a well-functioning workspace.
+              </li>
+              <li>
+                Conducted refreshment party for the refreshment of the staffs.
+              </li>
+            </ul>
+          </div>
 
           {/* Experience 1 */}
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg mb-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
