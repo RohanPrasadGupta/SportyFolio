@@ -440,7 +440,7 @@ export default function Home() {
               Greenhill Education Group Pty Ltd (Australia )
             </h3>
             <p className="text-gray-400 italic mb-4">
-              HR & Admin Officer (Remote - Nepal) (April 2025 – October 2025)
+              HR & Admin Officer (Remote - Nepal) (December 2024 – November 2025)
             </p>
             <ul className="list-disc list-inside text-gray-300 space-y-2">
               <li>
