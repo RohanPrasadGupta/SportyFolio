@@ -305,7 +305,7 @@ export default function Home() {
               PROFILE
             </h2>
             <p className="text-gray-300 text-lg leading-relaxed text-justify">
-              Motivated and detail-oriented HR professional with over 6 months
+              Motivated and detail-oriented HR professional with more than 1 year
               of experience in recruitment, onboarding, and employee support,
               combined with 2 years of expertise in customer service. Skilled in
               building strong professional relationships, managing
